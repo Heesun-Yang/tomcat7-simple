@@ -48,7 +48,7 @@
     <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
                maxActive="100" maxIdle="30" maxWait="10000"
                username="myuser" password="mypasswd" driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://${db_host:mysql-db}:3306/microservices"
+               url="jdbc:mysql://${db_host}:3306/microservices"
                factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
     />
   </GlobalNamingResources>
